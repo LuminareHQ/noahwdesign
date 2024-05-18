@@ -21,7 +21,7 @@
             {/if}
         </div>
     </div>
-    <div class="flex flex-col p-2 w-full lg:w-1/3">
+    <div class="flex flex-col p-2 w-full lg:w-1/3 gap-2">
         <h2 class="text-2xl">{title}</h2>
         <a href={link}>Link</a>
         <div class="flex flex-row flex-wrap gap-2">

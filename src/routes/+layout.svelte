@@ -5,6 +5,8 @@
     import {goto} from "$app/navigation";
     import {page} from "$app/stores";
 
+    export let data
+
     let loading = true
     let showSlot = false
 
@@ -15,7 +17,7 @@
                 goto("/");
             }
             if (e.key === "2") {
-                goto("/about");
+                goto("/skills");
             }
             if (e.key === "3") {
                 goto("/resume");
@@ -27,8 +29,10 @@
 
         setTimeout(() => {
             showSlot = true
-        }, 2000)
+        }, 2600)
     })
+
+    $: console.log($page.url.pathname)
 </script>
 
 <div class="flex w-full h-full p-4">
@@ -39,11 +43,17 @@
                     <h1 class="text-2xl text-left justify-start">
                         <TypedText textToType="NoahW.Design" showCursor={true} timePerChar="100"/>
                     </h1>
-                    <div class="flex flex-col">
+                    <div class="flex flex-row gap-2">
                         <a target="_blank" href="https://x.com/luminarehq">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
                                 <path fill="currentColor"
                                       d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"/>
+                            </svg>
+                        </a>
+                        <a target="_blank" href="https://linkedin.com/in/noah-weber-design">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037c-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85c3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.06 2.06 0 0 1-2.063-2.065a2.064 2.064 0 1 1 2.063 2.065m1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/>
                             </svg>
                         </a>
                     </div>
@@ -75,9 +85,9 @@
                     </a>
                 </div>
             </div>
-            <div class="flex w-full h-full border-t-2 border-b-2 p-1 overflow-auto">
+            <div class="flex w-full h-full border-t-2 border-b-2 overflow-auto">
                 {#if showSlot}
-                    <div class="flex w-full h-full overflow-auto">
+                    <div class="flex w-full h-full">
                         <slot/>
                     </div>
                 {:else}

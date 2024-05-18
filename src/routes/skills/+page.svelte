@@ -3,8 +3,9 @@
     import SkillLine from "$lib/SkillLine.svelte";
 </script>
 
-<div class="p-3 flex flex-col w-full h-full gap-4">
-    <div class="flex flex-col items-center">
+
+<div class="flex flex-col w-full h-full gap-4 p-3">
+    <div class="flex flex-col items-center w-full h-full">
         <div class="flex flex-col w-full items-center border-b-4 pb-2">
             <h2 class="text-2xl font-bold">Languages & Frameworks</h2>
         </div>
