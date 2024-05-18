@@ -43,7 +43,7 @@
                     <h1 class="text-2xl text-left justify-start">
                         <TypedText textToType="NoahW.Design" showCursor={true} timePerChar="100"/>
                     </h1>
-                    <div class="flex flex-row gap-2">
+                    <div class="flex flex-row gap-2" class:hidden={!showSlot}>
                         <a target="_blank" href="https://x.com/luminarehq">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
                                 <path fill="currentColor"

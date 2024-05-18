@@ -7,7 +7,7 @@
             case 0:
                 return "DEFAULT"
             case 1:
-                return "Learning"
+                return "Developing"
             case 2:
                 return "Advanced"
             case 3:

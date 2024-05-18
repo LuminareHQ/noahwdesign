@@ -1,5 +1,4 @@
 <script>
-    import TypedText from "$lib/TypedText.svelte";
     import SkillLine from "$lib/SkillLine.svelte";
 </script>
 
@@ -12,9 +11,9 @@
         <SkillLine skillName="SvelteKit" skillLevel={3}/>
         <SkillLine skillName="TypeScript" skillLevel={3}/>
         <SkillLine skillName="HTML/CSS" skillLevel={3}/>
-        <SkillLine skillName="NextJS" skillLevel={2}/>
         <SkillLine skillName="SQL" skillLevel={2}/>
         <SkillLine skillName="Go" skillLevel={2}/>
+        <SkillLine skillName="NextJS" skillLevel={2}/>
         <SkillLine skillName="Object Pascal" skillLevel={2}/>
         <SkillLine skillName="C#" skillLevel={2}/>
         <SkillLine skillName="Python" skillLevel={1}/>

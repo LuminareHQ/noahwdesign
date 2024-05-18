@@ -10,7 +10,7 @@
 
 <div class={`flex flex-col w-full mx-auto border-2 ${index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"}`}>
     <div class="flex flex-col w-full lg:w-2/3 h-full">
-        <div class="flex flex-col relative h-full aspect-video">
+        <div class="flex flex-col relative h-full">
             {#if useImage}
                 <img src={imageSrc} class="object-contain h-full">
             {:else}
@@ -23,10 +23,11 @@
     </div>
     <div class="flex flex-col p-2 w-full lg:w-1/3 gap-2">
         <h2 class="text-2xl">{title}</h2>
-        <a href={link}>Link</a>
+        <a href={link} class="link">Go To Site</a>
+        <p>Technologies Used:</p>
         <div class="flex flex-row flex-wrap gap-2">
             {#each technologies as technology}
-                <div class="p-1 border-2">{technology}</div>
+                <div class="p-1 border-[1px]">{technology}</div>
             {/each}
         </div>
     </div>
