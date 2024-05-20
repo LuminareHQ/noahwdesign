@@ -31,8 +31,6 @@
             showSlot = true
         }, 2600)
     })
-
-    $: console.log($page.url.pathname)
 </script>
 
 <div class="flex w-full h-full p-4">
