@@ -23,7 +23,7 @@
     </div>
     <div class="flex flex-col p-2 w-full lg:w-1/3 gap-2">
         <h2 class="text-2xl">{title}</h2>
-        <a href={link} class="link">Go To Site</a>
+        <a href={link} target="_blank" class="link">Go To Site</a>
         <p>Technologies Used:</p>
         <div class="flex flex-row flex-wrap gap-2">
             {#each technologies as technology}
