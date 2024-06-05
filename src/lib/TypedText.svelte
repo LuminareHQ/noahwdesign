@@ -15,7 +15,7 @@
 
     export let delayStart = 0
 
-
+    export let additionalText = ""
 
     onMount(() => {
         if (hideCursorBeforeStart) {
@@ -37,4 +37,4 @@
     }, delayStart)
 </script>
 
-{#each shownText as letter}{letter}{/each}{#if showCursor}{Cursor ? "_" : ""}{/if}
+{#each shownText as letter}{letter}{/each}{additionalText}{#if showCursor}{Cursor ? "_" : ""}{/if}

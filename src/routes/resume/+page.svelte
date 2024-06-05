@@ -44,8 +44,8 @@
                 header="Post Tools"
                 location=""
                 title=" Custom Cambrio Post Tooling"
-                dates="August 2018 - May 2022"
-                description="Bachelor of Science in Digital Media and Design with a focus on Interactive Development (Web, Desktop, VR/Game Development)"/>
+                dates=""
+                description="Developed custom tooling that streamlines Post analysis and automates problem identification, resulting in reduced turnaround time and increased accuracy and efficiency."/>
     </div>
     <div class="flex flex-col w-full gap-4">
         <h2 class="text-2xl font-bold">Skills</h2>
