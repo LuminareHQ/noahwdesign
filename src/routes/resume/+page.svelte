@@ -42,11 +42,11 @@
       description="Music Technology Startup using SvelteKit, Node.js, PocketBase, and Stripe on AWS and Cloudflare cloud infrastructure." />
     <ResumeItem
       hideComma="true"
-      header="Post Tools"
+      header="Open Marching"
       location=""
-      title="Custom Cambrio Post Tooling"
+      title="Founder"
       dates=""
-      description="Developed custom tooling that streamlines Post analysis and automates problem identification, resulting in reduced turnaround time and increased accuracy and efficiency." />
+      description="Developing open source software for the marching arts, including an open source drill writing, visualization, and exporting software called DotFlow." />
   </div>
   <div class="flex flex-col w-full gap-4">
     <h2 class="text-2xl font-bold">Skills</h2>
