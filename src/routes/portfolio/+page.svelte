@@ -20,10 +20,11 @@
       "SvelteKit",
       "Cloudflare",
       "AWS",
-      "PocketBase",
+      "MariaDB",
       "Go",
       "Open Sheet Music Display",
       "PDFJS",
+      "ViewerJS",
     ]}
     useImage="true"
     index="1" />
