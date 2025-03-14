@@ -9,25 +9,17 @@
     imageSrc="/ossia-performance-homepage.png"
     useImage="true"
     link="https://ossiaperformance.com"
-    technologies={["SvelteKit", "Cloudflare"]}
+    technologies={["SvelteKit", "Cloudflare", "Railway"]}
     index="0" />
   <PortfolioItem
     title="Ossia Performance WebApp"
-    iframeSrc="https://app.ossiaperformance.com"
+    iframeSrc="https://ossiaperformance.com/app"
     imageSrc="/ossia-performance-app.png"
-    link="https://app.ossiaperformance.com"
-    technologies={[
-      "SvelteKit",
-      "Cloudflare",
-      "AWS",
-      "PocketBase",
-      "Go",
-      "Open Sheet Music Display",
-      "PDFJS",
-    ]}
+    link="https://ossiaperformance.com/app"
+    technologies={["SvelteKit", "Cloudflare", "PostgreSQL", "Redis", "Open Sheet Music Display", "PDFJS", "ViewerJS", "AWS", "Railway"]}
     useImage="true"
     index="1" />
-  <PortfolioItem
+  <!-- <PortfolioItem
     title="Open Marching"
     iframeSrc="https://openmarching.org"
     imageSrc="/open-marching.png"
@@ -39,7 +31,7 @@
       "Lua",
     ]}
     useImage={true}
-    index="2" />
+    index="2" /> -->
 <!--  <PortfolioItem-->
 <!--    title="MarchLink"-->
 <!--    iframeSrc="https://development.marchlink.com"-->
