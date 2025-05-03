@@ -4,8 +4,7 @@
 
 <div class="p-3 flex flex-col w-full h-full gap-4">
     <div class="flex flex-col w-full">
-        <p>I bridge the gap between creativity and capability.</p>
-        <p>Building platforms users want, with the functionality they need.</p>
+        <p>Developer with an Artists Touch.</p>
     </div>
     <div class="flex flex-col w-full gap-4">
         <h2 class="text-2xl font-bold">Experience</h2>
